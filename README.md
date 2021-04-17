@@ -9,3 +9,7 @@ The controller exposes a number of settings that can be viewed from the unity ed
  - Dampening (controls the hover bounciness, more dampening less bounciness)
  
 A hover bike has a set of rover engines and from each a raycast is sent to the -local up direction, depending on the hit distance a different force is calculated and applied to maintain the hovering. I also used Hooke's Law to calculate a dampen force to reduce the bounciness.
+
+Preview:
+
+![](Resources/HoverBike.gif)
